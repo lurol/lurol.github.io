@@ -7,7 +7,7 @@ body{
 header{
     background-color:#00093D;
     color: white;
-    height: 12%;
+    height: 80px;
     width: 100%;
     position: fixed;
     z-index: 100;
@@ -17,7 +17,6 @@ header{
     width: 10.2%;
     position: absolute;
     margin-left: 5%;
-    
 }
 
 #menu{
@@ -25,13 +24,11 @@ header{
     margin-right: 5%;
     list-style: none;
     margin-top: 0.5%;
-    
 }
 
 li{
     float: left;
     padding: 20px 20px 20px 10px;
-    
 }
 
 li:hover{
@@ -51,7 +48,6 @@ a{
 section{
     padding: 5%;
     float: left;
-
 }
 
 #caixatexto{
@@ -206,6 +202,8 @@ footer{
     width: 100%;
 }
 
+/* Infelizmente não consegui deixar a responsividade adequada :( */
+
 @media all and (max-width:768px) {
     #menu{
         visibility: hidden;
@@ -226,3 +224,4 @@ footer{
         transform: translate(-50%);
     }
 }
+
